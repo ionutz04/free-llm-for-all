@@ -2,6 +2,7 @@
 
 # Hugging Face token
 
+export HUGGINGFACE_HUB_TOKEN=$HF_TOKEN
 
 docker run --rm -it \
   --gpus all \
